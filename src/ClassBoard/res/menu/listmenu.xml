@@ -9,4 +9,8 @@ android:title="@string/addnew" />
 <item android:id="@+id/action_logout" 
 android:title="logout" />
 
+
+<item android:id="@+id/groups" 
+android:title="groups" />
+
 </menu>

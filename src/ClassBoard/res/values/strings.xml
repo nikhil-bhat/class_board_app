@@ -4,5 +4,6 @@
     <string name="addnew">Add New</string>
     <string name="app_name">ClassBoard</string>
     <string name="post">Post</string>
+    <string name="cancelcancel"></string>
     
 </resources>

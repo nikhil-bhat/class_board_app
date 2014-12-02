@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.parse.ParseInstallation;
 import com.parse.ParseQuery;
 import com.parse.ParseQueryAdapter;
 import com.parse.ParseUser;
@@ -21,6 +22,9 @@ public class PostListActivity extends Activity {
 	private ParseQueryAdapter<Post> mainAdapter;
 	/** Called when the activity is first created. */
 	public void onCreate(Bundle savedInstanceState) {
+		ParseInstallation installation = ParseInstallation.getCurrentInstallation();
+		installation.put("user",ParseUser.getCurrentUser());
+		installation.saveInBackground();
 		super.onCreate(savedInstanceState);
 		//getListView().setClickable(false);
 setContentView(R.layout.main);
@@ -94,6 +98,15 @@ mainAdapter = new ParseQueryAdapter<Post>(this, factory) {
 			newPost();
 			break;
 		}
+		
+		case R.id.groups: {
+			Intent i=new Intent(this,GroupActivity.class);
+			startActivityForResult(i, 0);
+			break;
+		}
+		
+		
+		
 		}
 		return super.onOptionsItemSelected(item);
 	}
