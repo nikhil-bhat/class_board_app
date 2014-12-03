@@ -34,7 +34,7 @@ EditText group;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.group);
 		lv=(ListView)findViewById(R.id.lv1);
-		ok=(Button)findViewById(R.id.button1);
+		ok=(Button)findViewById(R.id.but1);
 		myMap=new SparseIntArray();
 		group=(EditText)findViewById(R.id.edT);
 		 aa=new CustomAdapter(this,ParseUser.class);

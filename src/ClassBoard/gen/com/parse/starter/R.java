@@ -15,69 +15,76 @@ public final class R {
     }
     public static final class id {
         public static final int action_button=0x7f060003;
-        public static final int action_logout=0x7f060017;
-        public static final int action_new=0x7f060016;
-        public static final int action_refresh=0x7f060015;
-        public static final int b1=0x7f06000f;
-        public static final int button1=0x7f06000a;
-        public static final int button2=0x7f06000b;
-        public static final int cB1=0x7f060013;
-        public static final int contact=0x7f06000c;
-        public static final int contentView=0x7f060011;
-        public static final int edT=0x7f060007;
-        public static final int groups=0x7f060018;
-        public static final int listy=0x7f060010;
+        public static final int action_logout=0x7f060019;
+        public static final int action_new=0x7f060018;
+        public static final int action_refresh=0x7f060017;
+        public static final int b1=0x7f060011;
+        public static final int but1=0x7f06000a;
+        public static final int button2=0x7f06000d;
+        public static final int cB1=0x7f060015;
+        public static final int commands=0x7f06001b;
+        public static final int contact=0x7f06000e;
+        public static final int contentView=0x7f060013;
+        public static final int edT=0x7f06000b;
+        public static final int edt1=0x7f060008;
+        public static final int groups=0x7f06001a;
+        public static final int listy=0x7f060012;
         public static final int logInButton=0x7f060004;
         public static final int login=0x7f060002;
-        public static final int lv1=0x7f060009;
+        public static final int lv1=0x7f06000c;
         public static final int password=0x7f060001;
         public static final int passwordAgain=0x7f060006;
         public static final int signUpButton=0x7f060005;
-        public static final int t2=0x7f06000e;
-        public static final int te1=0x7f060014;
-        public static final int textView1=0x7f060008;
-        public static final int title=0x7f06000d;
+        public static final int t2=0x7f060010;
+        public static final int te1=0x7f060016;
+        public static final int textView1=0x7f060009;
+        public static final int textView2=0x7f060007;
+        public static final int title=0x7f06000f;
         public static final int username=0x7f060000;
-        public static final int usernameView=0x7f060012;
+        public static final int usernameView=0x7f060014;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
         public static final int activity_sign_up_or_log_in=0x7f030001;
         public static final int activity_signup=0x7f030002;
-        public static final int group=0x7f030003;
-        public static final int lain=0x7f030004;
-        public static final int main=0x7f030005;
-        public static final int post_item=0x7f030006;
-        public static final int row=0x7f030007;
+        public static final int coms=0x7f030003;
+        public static final int group=0x7f030004;
+        public static final int lain=0x7f030005;
+        public static final int main=0x7f030006;
+        public static final int post_item=0x7f030007;
+        public static final int row=0x7f030008;
     }
     public static final class menu {
         public static final int listmenu=0x7f050000;
     }
     public static final class string {
-        public static final int action_forgot_password=0x7f04000b;
-        public static final int action_sign_in_register=0x7f040009;
-        public static final int action_sign_in_short=0x7f04000a;
+        public static final int action_forgot_password=0x7f04000e;
+        public static final int action_sign_in_register=0x7f04000c;
+        public static final int action_sign_in_short=0x7f04000d;
         public static final int addnew=0x7f040001;
         public static final int app_name=0x7f040002;
+        public static final int but1=0x7f040007;
         public static final int cancelcancel=0x7f040004;
-        public static final int error_blank_password=0x7f040013;
-        public static final int error_blank_username=0x7f040012;
-        public static final int error_end=0x7f040016;
-        public static final int error_field_required=0x7f040010;
-        public static final int error_incorrect_password=0x7f04000f;
-        public static final int error_intro=0x7f040011;
-        public static final int error_invalid_email=0x7f04000d;
-        public static final int error_invalid_password=0x7f04000e;
-        public static final int error_join=0x7f040015;
-        public static final int error_mismatched_passwords=0x7f040014;
-        public static final int login_progress_signing_in=0x7f04000c;
+        public static final int command=0x7f040005;
+        public static final int error_blank_password=0x7f040016;
+        public static final int error_blank_username=0x7f040015;
+        public static final int error_end=0x7f040019;
+        public static final int error_field_required=0x7f040013;
+        public static final int error_incorrect_password=0x7f040012;
+        public static final int error_intro=0x7f040014;
+        public static final int error_invalid_email=0x7f040010;
+        public static final int error_invalid_password=0x7f040011;
+        public static final int error_join=0x7f040018;
+        public static final int error_mismatched_passwords=0x7f040017;
+        public static final int help=0x7f040006;
+        public static final int login_progress_signing_in=0x7f04000f;
         public static final int post=0x7f040003;
-        public static final int prompt_password=0x7f040007;
-        public static final int prompt_password_again=0x7f040008;
+        public static final int prompt_password=0x7f04000a;
+        public static final int prompt_password_again=0x7f04000b;
         /**  Strings related to login 
          */
-        public static final int prompt_username=0x7f040006;
+        public static final int prompt_username=0x7f040009;
         public static final int refresh=0x7f040000;
-        public static final int title_activity_login=0x7f040005;
+        public static final int title_activity_login=0x7f040008;
     }
 }

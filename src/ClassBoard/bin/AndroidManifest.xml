@@ -60,7 +60,10 @@
             android:label="Groups" >
         </activity>
         
-        
+        <activity
+            android:name=".ScriptActivity"
+            android:label="scripts" >
+        </activity>
         
         <activity
             android:name=".NewPostActivity"

@@ -13,4 +13,7 @@ android:title="logout" />
 <item android:id="@+id/groups" 
 android:title="groups" />
 
+<item android:id="@+id/commands"
+    android:title="Commands"/>
+
 </menu>

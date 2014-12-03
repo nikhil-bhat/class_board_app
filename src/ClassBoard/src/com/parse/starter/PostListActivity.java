@@ -78,7 +78,11 @@ mainAdapter = new ParseQueryAdapter<Post>(this, factory) {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-
+		case R.id.commands:
+		{
+			Intent intent =new Intent(this,ScriptActivity.class);
+			startActivity(intent);
+		}
 		case R.id.action_refresh: {
 			updatePostList();
 			break;

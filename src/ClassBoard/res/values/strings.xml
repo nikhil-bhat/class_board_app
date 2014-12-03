@@ -5,5 +5,8 @@
     <string name="app_name">ClassBoard</string>
     <string name="post">Post</string>
     <string name="cancelcancel"></string>
+    <string name="command">enter the command to run</string>
+    <string name="help">supported commands help country time math</string>
+    <string name="but1">submit</string>
     
 </resources>
